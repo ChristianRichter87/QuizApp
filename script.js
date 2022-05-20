@@ -77,7 +77,6 @@ function submitQuiz() {
             answer = btn.value;
         }
     })
-    console.log(answer);
 
     if (answer === currentQuiz.correct) {
         score ++;
