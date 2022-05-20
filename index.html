@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+        <div class="wrapper">
+            <h2 class="question_el">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eum?</h2>
+            <div class="answer_list">
+                <ul>
+                    <li><input class="btn_radio" type="radio" name="answers" value="a" id="a"></input>
+                        <label id="a_label" for="a">a</label></li>
+                    <li><input class="btn_radio" type="radio" name="answers" value="b" id="b"></input>
+                        <label id="b_label" for="b">b</label></li>
+                    <li><input class="btn_radio" type="radio" name="answers" value="c" id="c"></input>
+                        <label id="c_label" for="c">c</label></li>
+                    <li><input class="btn_radio" type="radio" name="answers" value="d" id="d"></input>
+                        <label id="d_label" for="d">d</label></li>
+                </ul>
+            </div>
+        </div>
+        <button type="submit" id="btn_submit" onclick="submitQuiz()">Antwort abschicken</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
